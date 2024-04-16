@@ -1,0 +1,101 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.8.6)
+      public_suffix (>= 2.0.2, < 6.0)
+    aruba (2.2.0)
+      bundler (>= 1.17, < 3.0)
+      contracts (>= 0.16.0, < 0.18.0)
+      cucumber (>= 8.0, < 10.0)
+      rspec-expectations (~> 3.4)
+      thor (~> 1.0)
+    bigdecimal (3.1.7)
+    builder (3.2.4)
+    capybara (3.40.0)
+      addressable
+      matrix
+      mini_mime (>= 0.1.3)
+      nokogiri (~> 1.11)
+      rack (>= 1.6.0)
+      rack-test (>= 0.6.3)
+      regexp_parser (>= 1.5, < 3.0)
+      xpath (~> 3.2)
+    contracts (0.17)
+    cucumber (9.2.0)
+      builder (~> 3.2)
+      cucumber-ci-environment (> 9, < 11)
+      cucumber-core (> 13, < 14)
+      cucumber-cucumber-expressions (~> 17.0)
+      cucumber-gherkin (> 24, < 28)
+      cucumber-html-formatter (> 20.3, < 22)
+      cucumber-messages (> 19, < 25)
+      diff-lcs (~> 1.5)
+      mini_mime (~> 1.1)
+      multi_test (~> 1.1)
+      sys-uname (~> 1.2)
+    cucumber-ci-environment (10.0.1)
+    cucumber-core (13.0.2)
+      cucumber-gherkin (>= 27, < 28)
+      cucumber-messages (>= 20, < 23)
+      cucumber-tag-expressions (> 5, < 7)
+    cucumber-cucumber-expressions (17.1.0)
+      bigdecimal
+    cucumber-gherkin (27.0.0)
+      cucumber-messages (>= 19.1.4, < 23)
+    cucumber-html-formatter (21.3.1)
+      cucumber-messages (> 19, < 25)
+    cucumber-messages (22.0.0)
+    cucumber-tag-expressions (6.1.0)
+    diff-lcs (1.5.1)
+    ffi (1.16.3)
+    matrix (0.4.2)
+    method_source (1.1.0)
+    mini_mime (1.1.5)
+    multi_test (1.1.0)
+    nokogiri (1.16.4-x86_64-linux)
+      racc (~> 1.4)
+    public_suffix (5.0.5)
+    racc (1.7.3)
+    rack (3.0.10)
+    rack-test (2.1.0)
+      rack (>= 1.3)
+    rackup (2.1.0)
+      rack (>= 3)
+      webrick (~> 1.8)
+    rake (13.2.1)
+    regexp_parser (2.9.0)
+    rspec (3.13.0)
+      rspec-core (~> 3.13.0)
+      rspec-expectations (~> 3.13.0)
+      rspec-mocks (~> 3.13.0)
+    rspec-core (3.13.0)
+      rspec-support (~> 3.13.0)
+    rspec-expectations (3.13.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-mocks (3.13.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-support (3.13.1)
+    sys-uname (1.2.3)
+      ffi (~> 1.1)
+    thor (1.3.1)
+    webrick (1.8.1)
+    xpath (3.2.0)
+      nokogiri (~> 1.8)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  aruba
+  capybara
+  cucumber
+  method_source
+  rackup
+  rake (~> 13.0)
+  rspec (~> 3.0)
+  webrick
+
+BUNDLED WITH
+   2.4.21
