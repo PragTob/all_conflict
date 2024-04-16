@@ -16,6 +16,10 @@ Repo is used to show the issue (on various levels).
 
 Most of this works by commenting out/readding thins in `features/support/env.rb`
 
+Opened issues:
+* https://github.com/cucumber/aruba/issues/927
+*https://github.com/teamcapybara/capybara/issues/2761
+
 ## Setup
 
 `bundle install`
