@@ -1,7 +1,7 @@
-require 'aruba/cucumber'
-# require 'rspec/expectations'
 require 'capybara/cucumber'
+require 'aruba/cucumber'
 
+Aruba::Api::Core.include(::Capybara::RSpecMatcherProxies)
 
 Capybara.app = Rack::Builder.new do
   use Rack::Static, urls: {"/" => "index.html"}, root: "."
